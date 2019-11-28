@@ -18,13 +18,14 @@ li
 {
     margin: 10px;
     background-color:rgb(180, 209, 209);
-    width: 130px;
+    width: 170px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     font-size: 20px;
     border-bottom: 4px solid  rgb(180, 209, 209);
     cursor: pointer;
 }
+
 
   :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -170,16 +171,27 @@ li
     right: 180px;
     z-index: -10;
   }
-
-  a,
-  a:visited,
+  .tab{
+      margin: 20px;
+      background-color: cornflowerblue;
+      height: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      margin-left: 100px;
+  }
+ 
+  a{
+    text-decoration: none;
+    color: white;
+  }
   a:hover {
-    color: #1976d2;
+    color: #DD0031;
     text-decoration: none;
   }
 
-  a:hover {
-    color: #125699;
+  a.active {
+    background-color: black;
+   
   }
 
   .terminal {
